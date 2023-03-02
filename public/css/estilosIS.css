@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursive';
+}
+.body_IS{
+    display: flex;
+    height: 700px;
+    align-items: stretch;
+}
+
+.main_IS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.aside_IS{
+    display: flex;
+    width: 30%;
+    flex-flow: row wrap;
+    padding: 10% 2% 2%;
+}
+.buttonIS, .buttonR{
+    display: inline;
+    width: 50%;
+    height: 6%;
+    text-align: center;
+}
+.btnIS{
+    border-bottom: 4px solid #1366c3;
+}
+.btnR{
+    border-bottom: 4px solid #ffffff;
+}
+
+.formIS, .formR{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+form > label, .btnGuardar, .btnCancelar{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+form > input, .btnGuardar{
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.btnCancelar{
+    background: #f11616;
+}
+.btnGuardar{
+    background: #43c523;
+}

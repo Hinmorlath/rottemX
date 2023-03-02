@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="css/estilosIS.css">
     <title>Iniciar Sesión</title>
 </head>
-<body>
-    <main>
+<body class="body_IS">
+    <main class="main_IS">
         <figure>
             <img src="img/rottemX.png" alt="RottemX">
         </figure>
     </main>
-    <aside>
-        <span>Inicio de Sesión</span>
-        <span>Registrase</span>
-        <form action="#" method="post">
+    <aside class="aside_IS">
+        <span class="btnIS">Inicio de Sesión</span>
+        <span class="btnR">Registrase</span>
+        <form class="formIS" action="#" method="post">
             <label for="emailUsuario_IS">
                 Usuario:
             </label>
@@ -27,13 +27,13 @@
                 Contraseña:
             </label>
             <input type="password" name="pass_IS" id="pass_IS" placeholder="Escribe tu contraseña">
-            <input type="reset" value="Cancelar">
-            <button type="submit">
+            <input class="btnCancelar" type="reset" value="Cancelar">
+            <button class="btnGuardar" type="submit">
                 <span class="fa-solid fa-floppy-disk"></span>
                 <span>Guardar</span>
             </button>
         </form>
-        <form action="#" method="post">
+        <form class="formR" action="#" method="post">
             <input type="file" name="imgUsuario_IS" id="imgUsuario_IS">
             <span class="fa-solid fa-plus"></span>
             <label for="usuario_R">Usuario:</label>
@@ -44,8 +44,8 @@
             <input type="password" name="pass_R" id="pass_R" placeholder="Ingresa una contraseña" minlength="6">
             <label for="telefono_R">Teléfono:</label>
             <input type="text" name="telUsuario_R" id="telUsuario_R" placeholder="Ingresa un número telefónico">
-            <input type="reset" value="Cancelar">
-            <button type="submit">
+            <input class="btnCancelar" type="reset" value="Cancelar">
+            <button class="btnGuardar" type="submit">
                 <span class="fa-solid fa-floppy-disk"></span>
                 <span>Guardar</span>
             </button>
