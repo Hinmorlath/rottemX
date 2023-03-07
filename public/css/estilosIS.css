@@ -2,27 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'cursive';
+    font-family: cursive;
 }
 .body_IS{
     display: flex;
     height: 700px;
     align-items: stretch;
+    font-size: 1.2em;
+    justify-content: center;
 }
 
 .main_IS{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 50%;
 }
+.logoMain{
+    width: 80%;
+}
+.logoMain > img{
+    width: 100%;
+}
+
 .aside_IS{
     display: flex;
     width: 30%;
     flex-flow: row wrap;
     padding: 10% 2% 2%;
 }
-.buttonIS, .buttonR{
+.boxR{
+    width: 100%;
+}
+.btnIS, .btnR{
     display: inline;
     width: 50%;
     height: 6%;
@@ -39,19 +51,44 @@
     display: flex;
     flex-flow: column;
     width: 100%;
+    margin: 8% 0;
 }
 
 form > label, .btnGuardar, .btnCancelar{
     margin-bottom: 2%;
     margin-top: 2%;
+    border: none;
+}
+form > input{
+    font-size: 1em;
+}
+.btnGuardar{
+    font-size: 1.3em;
 }
 form > input, .btnGuardar{
     border-radius: 10px;
     padding: 5px 15px;
 }
 .btnCancelar{
-    background: #f11616;
+    background: #1368c4;
+    color: rgba(255, 255, 255, .8);
+    border: 5px solid #ffffff;
+    margin-top: 10%;
+}
+.btnCancelar:active{
+    background: rgba(255, 255, 255, .8);
+    color: #1368c4;
+    border: 5px solid #1368c4;
 }
 .btnGuardar{
-    background: #43c523;
+    background: #00d4db;
+    border: 5px solid #fff;
+}
+.btnGuardar:active{
+    background: #ffffff;
+    color: #00d4db;
+    border: 5px solid #00d4db;
+}
+.btnCancelar, .btnGuardar{
+    cursor: pointer;
 }
