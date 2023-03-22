@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+/* Estilos del header en general*/
+.header_G{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+    margin-top: 2%;
+}
+.logo_G{
+    width: 10%;
+}
+.logo_G > a{
+    display: inline-block;
+    width: 100%;
+}
+.logo_G > a > img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.titulo_G{
+    background: #45444e;
+    color: #ffffff;
+    padding: 10px 1%;
+    width: 40%;
+    text-align: center;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    border-radius: 10px;
+}
+.ajustes{
+    font-size: 2em;
+    background: #d9d9d9;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.btn-cancelarC, .btn-guardarC{
+    border: none;
+    background: none;
+    color: #fff;
+}
+.btn-cancelarC > span {
+    margin-right: 20px;
+    background: #f32828;
+    padding: 8px 13px;
+}
+.btn-guardarC > span {
+    background: #3a9b00;
+}
+
+
+/*Estilos del Main en general*/
+.main_G{
+    background: #e6e4fa;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    min-height: 585px;
+    position: relative;
+}
+.main_G2{
+
+}
+.aside_G2{
+    
+}
+.subtitulo_G{
+    position: absolute;
+    border-radius: 5px;
+    right: 43%;
+    width: 9%;
+    font-size: 1em;
+    top: -3%;
+    padding: 5px 10px;
+}
+
+.agregarA{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 8em;
+    transition: color, font-size 0.3s ease 0s;
+}
+.agregarA:hover{
+    color: #ffffff;
+    font-size: 10em;
+}
+.agregarA:hover > .article_Agregar{
+    background: #45444e;
+}
+.article_Agregar{
+    background: #d9d9d9;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease 0s;
+}

@@ -39,6 +39,7 @@
     width: 50%;
     height: 6%;
     text-align: center;
+    cursor: pointer;
 }
 .btnIS{
     border-bottom: 4px solid #1366c3;
