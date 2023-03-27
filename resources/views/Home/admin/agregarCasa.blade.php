@@ -27,54 +27,56 @@
         </div>
     </header>
     <main class="main_G main_G2">
-        <button><span class="fa-solid fa-plus"></span>Agregar cuarto</button>
-        <button><span class="fa-solid fa-trash"></span>Eliminar</button>
-        <button><span class="fa-solid fa-reply"></span>Subir nivel</button>
-        <button><span class="fa-solid fa-share"></span>Bajar nivel</button>
-        <article></article>
-        <article>
-            <section>Piso 1</section>
-            <button>
-                <span class="fa-solid fa-plus"></span>
+        <div class="controles">
+            <button><span class="fa-solid fa-plus agregar"></span>Agregar cuarto</button>
+            <button><span class="fa-solid fa-trash eliminarCuarto"></span>Eliminar</button>
+            <button><span class="fa-solid fa-reply subirCuarto"></span>Subir nivel</button>
+            <button><span class="fa-solid fa-share bajarCuarto"></span>Bajar nivel</button>
+        </div>
+        <article class="mapeo" id="mapeo"></article>
+        <article class="pisoSeccion" id="pisoSeccion">
+            <button class="piso" id="piso">Piso 1</button>
+            <button class="piso" id="agregarPiso">
+                <span class="fa-solid fa-plus agregar"></span>
             </button>
         </article>
     </main>
     <aside class="aside_G">
-        <span class="titulo_G subtitulo_G">Mis casas</span>
-        <form action="">
-            <div>
-                <div>
-                    <input type="text" name="nombreCuarto" id="nombrCuarto" placeholder="Nombre del cuarto">
+        <span class="titulo_G subtitulo_G subtitulo_G2">Dispositivos</span>
+        <form class="registroDC" action="">
+            <div id="bloque1">
+                <div class="infoCuarto">
+                    <input type="text" name="nombreCuarto" id="nombrCuarto" placeholder="Nombre del cuarto" disabled>
                     <span class="fa-solid fa-pen"></span>
                     <input type="color" name="colorCuarto" id="colorCuarto">
                 </div>
-                <div>
-                    <div>
-                        <span class="fa-regular fa-lightbulb"></span>
+                <div id="autoFoco">
+                    <div class="infoCuarto">
+                        <span class="fa-regular fa-lightbulb focoOn"></span>
                         Automatización
-                        <span class="fa-solid fa-toggle-on"></span>
+                        <span class="fa-solid fa-toggle-on autoOn"></span>
                     </div>
-                    <div>
+                    <div class="autoFoco">
                         <input type="time" name="horaI" id="horaI">
                         <span> - </span>
                         <input type="time" name="horaF" id="horaF">
-                        <span class="fa-solid fa-square"></span>
+                        <span class="fa-solid fa-square-check autoOn"></span>
                     </div>
-                    <div>
-                        <span class="fa-solid fa-plus"></span>
-                        Agregar dispositivo
+                </div>
+                <div class="agregarD">
+                    <span class="fa-solid fa-plus agregar"></span>
+                    Agregar dispositivo
+                </div>
+                <section class="dispositivos">
+                    <div class="dispositivoIn">
+                        <span class="fa-regular fa-lightbulb"></span>
                     </div>
-                    <section>
-                        <div>
-                            <span class="fa-regular fa-lightbulb"></span>
-                        </div>
-                        <div>
-                            <span class="fa-solid fa-tv"></span>
-                        </div>
-                        <div>
-                            <span class="fa-solid fa-fan"></span>
-                        </div>
-                    </section>
+                    <div class="dispositivoIn">
+                        <span class="fa-solid fa-tv"></span>
+                    </div>
+                    <div class="dispositivoIn">
+                        <span class="fa-solid fa-fan"></span>
+                    </div>
                 </div>
             </div>
         </form>
