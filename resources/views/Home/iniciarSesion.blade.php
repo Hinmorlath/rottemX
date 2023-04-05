@@ -17,7 +17,7 @@
     </main>
     <aside class="aside_IS">
         <span class="btnIS">Inicio de Sesión</span>
-        <span class="btnR">Registrase</span>
+        <span class="btnR">Registrarse</span>
         <div class="boxR" id="boxR">
             <!--Este es el formulario del inicio de Sesión-->
             <form class="formIS" action="#" method="post">

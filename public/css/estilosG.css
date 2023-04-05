@@ -46,6 +46,13 @@ input{
     font-variant-caps: all-small-caps;
     border-radius: 10px;
 }
+.iconoSup > button{
+    border: none;
+    border-radius: 100%;
+}
+.btn-agregarUsuario > .ajustes{
+    padding: 10px 8px;
+}
 .ajustes{
     font-size: 2em;
     background: #d9d9d9;
@@ -76,6 +83,7 @@ input{
     border-radius: 10px;
     min-height: 585px;
     position: relative;
+    width: 100%;
 }
 .main_G2{
     width: 70%;
@@ -129,6 +137,10 @@ input{
     width: 84%;
     height: 480px;
 }
+.mapeo2{
+    width: 100%;
+    height: 480px;
+}
 .pisoSeccion{
     width: 100%;
     display: flex;
@@ -176,6 +188,9 @@ input{
 .registroDC > div{
     display: flex;
     flex-flow: column wrap;
+}
+#bloque1{
+    width: 100%;
 }
 /*Estilos del la info del bloque*/
 .infoCuarto{
